@@ -8,4 +8,4 @@ RUN wget -q -O - https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.k
 RUN apt-get update \
   && DEBIAN_FRONTEND=noninteractive apt-get -y install --no-install-recommends cf7-cli sqlite
   
-RUN su node -c "npm install -g @ui5/cli @sap/cds-dk yo"
+RUN su node -c "npm install -g @ui5/cli @sap/cds-dk yo generator-easy-ui5"
