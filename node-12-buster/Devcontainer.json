@@ -1,0 +1,10 @@
+{
+    "name": "dev-container-cap-ui5",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "extensions": [
+        "sapse.vscode-cds",
+        "sapse.sap-ux-fiori-tools-extension-pack"
+    ]
+}
